@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     Basel R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2019Nov/'>
+  <a href='https://therbootcamp.github.io/I2R_2020Feb/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "November 2019"
+date: "Februar 2020"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | November 2019
+      Einführung in die moderne Datenanalyse mit R | Februar 2020
       </font>
     </a>
     </span>
@@ -71,14 +71,20 @@ require(tidyverse)
 
 # Agenda
 
-1. R(Studio)<br>
-2. <high>Assignments</high><br>
-&nbsp;&nbsp;&nbsp;Objekt <mono><-</mono> Funktion<br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> kreiert Objekte<br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> verändert Objekte<br><br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2"><span><high>Assignments</high><br></span></li>
+  <ul class="level">
+    <li><span>Objekt <mono><-</mono> Funktion</span></li>
+    <li><span><mono><-</mono> kreiert Objekte</span></li>
+    <li><span><mono><-</mono> verändert Objekte</span></li>
+  </ul>
+  </span><br>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -97,14 +103,19 @@ require(tidyverse)
 
 .pull-left5[
 
-1. R(Studio)<br>
-2. Assignments<br>
-&nbsp;&nbsp;&nbsp;<high>Objekt <mono><-</mono> Funktion</high><br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> kreiert Objekte<br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> verändert Objekte<br><br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2"><span>Assignments<br></span></li>
+  <ul class="level">
+    <li><span><high>Objekt <mono><-</mono> Funktion</high></span></li>
+    <li><span><mono><-</mono> kreiert Objekte</span></li>
+    <li><span><mono><-</mono> verändert Objekte</span></li>
+  </ul>
+  </span><br>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -123,14 +134,19 @@ require(tidyverse)
 
 .pull-left5[
 
-1. R(Studio)<br>
-2. Assignments<br>
-&nbsp;&nbsp;&nbsp;Objekt <mono><-</mono> Funktion<br>
-&nbsp;&nbsp;&nbsp;<high><mono><-</mono> kreiert Objekte</high><br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> verändert Objekte<br><br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2"><span>Assignments<br></span></li>
+  <ul class="level">
+    <li><span>Objekt <mono><-</mono> Funktion</span></li>
+    <li><span><high><mono><-</mono> kreiert Objekte</high></span></li>
+    <li><span><mono><-</mono> verändert Objekte</span></li>
+  </ul>
+  </span><br>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -155,14 +171,19 @@ eins_zwei_drei
 
 .pull-left5[
 
-1. R(Studio)<br>
-2. Assignments<br>
-&nbsp;&nbsp;&nbsp;Objekt <mono><-</mono> Funktion<br>
-&nbsp;&nbsp;&nbsp;<high><mono><-</mono> kreiert Objekte</high><br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> verändert Objekte<br><br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2"><span>Assignments<br></span></li>
+  <ul class="level">
+    <li><span>Objekt <mono><-</mono> Funktion</span></li>
+    <li><span><high><mono><-</mono> kreiert Objekte</high></span></li>
+    <li><span><mono><-</mono> verändert Objekte</span></li>
+  </ul>
+  </span><br>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -183,14 +204,19 @@ mean(eins_zwei_drei)
 
 .pull-left5[
 
-1. R(Studio)<br>
-2. Assignments<br>
-&nbsp;&nbsp;&nbsp;Objekt <mono><-</mono> Funktion<br>
-&nbsp;&nbsp;&nbsp;<high><mono><-</mono> kreiert Objekte</high><br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> verändert Objekte<br><br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2"><span>Assignments<br></span></li>
+  <ul class="level">
+    <li><span>Objekt <mono><-</mono> Funktion</span></li>
+    <li><span><high><mono><-</mono> kreiert Objekte</high></span></li>
+    <li><span><mono><-</mono> verändert Objekte</span></li>
+  </ul>
+  </span><br>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -214,14 +240,19 @@ ergebnis
 
 .pull-left5[
 
-1. R(Studio)<br>
-2. Assignments<br>
-&nbsp;&nbsp;&nbsp;Objekt <mono><-</mono> Funktion<br>
-&nbsp;&nbsp;&nbsp;<high><mono><-</mono> kreiert Objekte</high><br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> verändert Objekte<br><br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2"><span>Assignments<br></span></li>
+  <ul class="level">
+    <li><span>Objekt <mono><-</mono> Funktion</span></li>
+    <li><span><high><mono><-</mono> kreiert Objekte</high></span></li>
+    <li><span><mono><-</mono> verändert Objekte</span></li>
+  </ul>
+  </span><br>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -246,14 +277,19 @@ ergebnis * 10
 
 .pull-left5[
 
-1. R(Studio)<br>
-2. Assignments<br>
-&nbsp;&nbsp;&nbsp;Objekt <mono><-</mono> Funktion<br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> kreiert Objekte<br>
-&nbsp;&nbsp;&nbsp;<high><mono><-</mono> verändert Objekte</high><br><br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2"><span>Assignments<br></span></li>
+  <ul class="level">
+    <li><span>Objekt <mono><-</mono> Funktion</span></li>
+    <li><span><mono><-</mono> kreiert Objekte</span></li>
+    <li><span><high><mono><-</mono> verändert Objekte</high></span></li>
+  </ul>
+  </span><br>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -282,14 +318,19 @@ eins_zwei_drei
 
 .pull-left5[
 
-1. R(Studio)<br>
-2. Assignments<br>
-&nbsp;&nbsp;&nbsp;Objekt <mono><-</mono> Funktion<br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> kreiert Objekte<br>
-&nbsp;&nbsp;&nbsp;<high><mono><-</mono> verändert Objekte</high><br><br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2"><span>Assignments<br></span></li>
+  <ul class="level">
+    <li><span>Objekt <mono><-</mono> Funktion</span></li>
+    <li><span><mono><-</mono> kreiert Objekte</span></li>
+    <li><span><high><mono><-</mono> verändert Objekte</high></span></li>
+  </ul>
+  </span><br>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -317,14 +358,19 @@ eins_zwei_drei
 
 .pull-left5[
 
-1. R(Studio)<br>
-2. Assignments<br>
-&nbsp;&nbsp;&nbsp;Objekt <mono><-</mono> Funktion<br>
-&nbsp;&nbsp;&nbsp;<mono><-</mono> kreiert Objekte<br>
-&nbsp;&nbsp;&nbsp;<high><mono><-</mono> verändert Objekte</high><br><br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2"><span>Assignments<br></span></li>
+  <ul class="level">
+    <li><span>Objekt <mono><-</mono> Funktion</span></li>
+    <li><span><mono><-</mono> kreiert Objekte</span></li>
+    <li><span><high><mono><-</mono> verändert Objekte</high></span></li>
+  </ul>
+  </span><br>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 

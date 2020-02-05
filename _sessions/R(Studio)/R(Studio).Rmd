@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     Basel R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2019Nov/'>
+  <a href='https://therbootcamp.github.io/I2R_2020Feb/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "November 2019"
+date: "februar 2020"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | November 2019
+      Einführung in die moderne Datenanalyse mit R | Februar 2020
       </font>
     </a>
     </span>
@@ -72,16 +72,20 @@ require(tidyverse)
 
 .pull-left4[
 
-1. <high>R(Studio)</high><br>
-&nbsp;&nbsp;&nbsp;- Was ist R?<br>
-&nbsp;&nbsp;&nbsp;- Was sind Programmiersprachen?<br>
-&nbsp;&nbsp;&nbsp;- Was ist RStudio?<br>
-&nbsp;&nbsp;&nbsp;- Warum RStudio?<br><br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
-
+<ul>
+  <li class="m1"><span><high>R(Studio)</high><br></span></li>
+  <ul class="level">
+    <li><span>Was ist R?</span></li>
+    <li><span>Was sind Programmiersprachen?</span></li>
+    <li><span>Was ist RStudio?</span></li>
+    <li><span>Warum RStudio?</span></li>
+  </ul>
+  </span><br>
+  <li class="m2g"><span>Assignments</span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 ]
 
 .pull-right5[
@@ -99,15 +103,20 @@ require(tidyverse)
 
 .pull-left4[
 
-1. R(Studio)<br>
-&nbsp;&nbsp;&nbsp;- <high>Was ist R?</high><br>
-&nbsp;&nbsp;&nbsp;- Was sind Programmiersprachen?<br>
-&nbsp;&nbsp;&nbsp;- Was ist RStudio?<br>
-&nbsp;&nbsp;&nbsp;- Warum RStudio?<br><br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1"><span>R(Studio)<br></span></li>
+  <ul class="level">
+    <li><span><high>Was ist R?</high></span></li>
+    <li><span>Was sind Programmiersprachen?</span></li>
+    <li><span>Was ist RStudio?</span></li>
+    <li><span>Warum RStudio?</span></li>
+  </ul>
+  </span><br>
+  <li class="m2g"><span>Assignments</span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -129,15 +138,20 @@ R wurde 1993 von Ross Ihaka und Robert Gentlemen auf Basis der Programmiersprach
 
 .pull-left4[
 
-1. R(Studio)<br>
-&nbsp;&nbsp;&nbsp;- Was ist R?<br>
-&nbsp;&nbsp;&nbsp;- <high>Was sind Programmiersprachen?</high><br>
-&nbsp;&nbsp;&nbsp;- Was ist RStudio?<br>
-&nbsp;&nbsp;&nbsp;- Warum RStudio?<br><br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1"><span>R(Studio)<br></span></li>
+  <ul class="level">
+    <li><span>Was ist R?</span></li>
+    <li><span><high>Was sind Programmiersprachen?</high></span></li>
+    <li><span>Was ist RStudio?</span></li>
+    <li><span>Warum RStudio?</span></li>
+  </ul>
+  </span><br>
+  <li class="m2g"><span>Assignments</span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -165,15 +179,20 @@ summary(res)<br>
 
 .pull-left4[
 
-1. R(Studio)<br>
-&nbsp;&nbsp;&nbsp;- Was ist R?<br>
-&nbsp;&nbsp;&nbsp;- Was sind Programmiersprachen?<br>
-&nbsp;&nbsp;&nbsp;- <high>Was ist RStudio?</high><br>
-&nbsp;&nbsp;&nbsp;- Warum RStudio?<br><br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1"><span>R(Studio)<br></span></li>
+  <ul class="level">
+    <li><span>Was ist R?</span></li>
+    <li><span>Was sind Programmiersprachen?</span></li>
+    <li><span><high>Was ist RStudio?</high></span></li>
+    <li><span>Warum RStudio?</span></li>
+  </ul>
+  </span><br>
+  <li class="m2g"><span>Assignments</span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -191,15 +210,20 @@ summary(res)<br>
 
 .pull-left4[
 
-1. R(Studio)<br>
-&nbsp;&nbsp;&nbsp;- Was ist R?<br>
-&nbsp;&nbsp;&nbsp;- Was sind Programmiersprachen?<br>
-&nbsp;&nbsp;&nbsp;- Was ist RStudio?<br>
-&nbsp;&nbsp;&nbsp;- <high>Warum RStudio?</high><br><br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1"><span>R(Studio)<br></span></li>
+  <ul class="level">
+    <li><span>Was ist R?</span></li>
+    <li><span>Was sind Programmiersprachen?</span></li>
+    <li><span>Was ist RStudio?</span></li>
+    <li><span><high>Warum RStudio?</high></span></li>
+  </ul>
+  </span><br>
+  <li class="m2g"><span>Assignments</span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -220,15 +244,20 @@ Shortcut für <high>führe Chunk wiederholt aus</high>:<br><br2><font size = 6> 
 
 .pull-left4[
 
-1. R(Studio)<br>
-&nbsp;&nbsp;&nbsp;- Was ist R?<br>
-&nbsp;&nbsp;&nbsp;- Was sind Programmiersprachen?<br>
-&nbsp;&nbsp;&nbsp;- Was ist RStudio?<br>
-&nbsp;&nbsp;&nbsp;- <high>Warum RStudio?</high><br><br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1"><span>R(Studio)<br></span></li>
+  <ul class="level">
+    <li><span>Was ist R?</span></li>
+    <li><span>Was sind Programmiersprachen?</span></li>
+    <li><span>Was ist RStudio?</span></li>
+    <li><span><high>Warum RStudio?</high></span></li>
+  </ul>
+  </span><br>
+  <li class="m2g"><span>Assignments</span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -247,15 +276,20 @@ Shortcut für <high>führe Chunk wiederholt aus</high>:<br><br2><font size = 6> 
 
 .pull-left4[
 
-1. R(Studio)<br>
-&nbsp;&nbsp;&nbsp;- Was ist R?<br>
-&nbsp;&nbsp;&nbsp;- Was sind Programmiersprachen?<br>
-&nbsp;&nbsp;&nbsp;- Was ist RStudio?<br>
-&nbsp;&nbsp;&nbsp;- <high>Warum RStudio?</high><br><br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1"><span>R(Studio)<br></span></li>
+  <ul class="level">
+    <li><span>Was ist R?</span></li>
+    <li><span>Was sind Programmiersprachen?</span></li>
+    <li><span>Was ist RStudio?</span></li>
+    <li><span><high>Warum RStudio?</high></span></li>
+  </ul>
+  </span><br>
+  <li class="m2g"><span>Assignments</span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -277,9 +311,9 @@ class: middle, center
 
 <i>Download</i>
 
-<h1><a href="https://raw.githubusercontent.com/therbootcamp/I2R_2019Nov/master/_download/code/I2R_code.zip" download>Code</a></h1>
+<h1><a href="https://raw.githubusercontent.com/therbootcamp/I2R_2020Feb/master/_download/code/I2R_code.zip" download>Code</a></h1>
 
-<h1><a href="https://raw.githubusercontent.com/therbootcamp/I2R_2019Nov/master/_download/data/I2R_data.zip" download>Daten</a></h1>
+<h1><a href="https://raw.githubusercontent.com/therbootcamp/I2R_2020Feb/master/_download/data/I2R_data.zip" download>Daten</a></h1>
 
 ---
 

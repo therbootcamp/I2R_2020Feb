@@ -4,7 +4,7 @@ author: "
       <a href='https://therbootcamp.github.io'>
         <i class='fas fa-home' style='font-size:1em;'></i>
       </a>
-      <a href='https://therbootcamp.github.io/ML_2019Oct/'>
+      <a href='https://therbootcamp.github.io/I2R_2020Feb/'>
         <i class='fas fa-clock' style='font-size:1em;' ></i>
       </a>
       <a href='mailto:therbootcamp@gmail.com'>
@@ -17,7 +17,7 @@ author: "
         <font style='font-style:normal;font-size:20px;padding-left:5px'>Basel R Bootcamp</font>
       </a>
       <br>
-      <img src='https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/by-sa.png' style= 'height:17px;vertical-align:baseline'/><font style='font-style:normal;font-size:20px;padding-left:8px'>November 2019</font>
+      <img src='https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/by-sa.png' style= 'height:17px;vertical-align:baseline'/><font style='font-style:normal;font-size:20px;padding-left:8px'>Februar 2020</font>
       "
 date: ""
 output:
@@ -27,10 +27,6 @@ output:
 ---
 
 <br>
-
-### Wifi
-
-##### [**Instructions**](https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/wifi_instruct.png)
 
 ### Downloads
 

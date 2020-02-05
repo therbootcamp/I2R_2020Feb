@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     Basel R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2019Nov/'>
+  <a href='https://therbootcamp.github.io/I2R_2020Feb/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "November 2019"
+date: "Februar 2020"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | November 2019
+      Einführung in die moderne Datenanalyse mit R | Februar 2020
       </font>
     </a>
     </span>
@@ -89,9 +89,10 @@ knitr::opts_chunk$set(fig.align = 'center')
 <br>
 # Schedule 
 
-Der Workshop beinhaltet fünf 5 <high>halbstündige R Blöcke</high> (in grau). 
-
-Jeder Block beginnt mit einer kurzen Folien-basierten <high>Einführung (10-15min)</high> und schliesst mit einer interaktiven <high>Übung (15-20min)</high> ab. 
+<ul>
+  <li class="m1"><span>Der Workshop beinhaltet fünf <high>halbstündige R Blöcke</high> (in grau).</span></li>
+  <li class="m2"><span>Jeder Block beginnt mit einer kurzen Folien-basierten <high>Einführung (10-15min)</high> und schliesst mit einer interaktiven <high>Übung (15-20min)</high> ab.</span></li>
+</ul>
 
 
 ]
@@ -126,23 +127,20 @@ Klicke auf <high>"....running..."</high> auf unserer Website!
 
 ---
 
-# Introductions
+# Vorstellungsrunde
 
 .pull-left5[
 
-1. Wie heisst du?
+<ul>
+  <li class="m1"><span>Wie heisst du?</span></li>
+  <li class="m2"><span>Was ist dein Beruf?</span></li>
+  <li class="m3"><span>Hast du Programmiererfahrung mit R oder allgemein?</span></li>
+  <li class="m4"><span>Wieso möchtest du R lernen?</span></li>
+  <li class="m5"><span>Kaffee oder Tee?</span></li>
+  <li class="m6"><span>Bier oder Wein?</span></li>
+  <li class="m7"><span>Berlin oder Paris?</span></li>
+</ul>
 
-2. Was ist dein Beruf?
-
-3. Hast du Programmiererfahrung mit R oder allgemein?
-
-4. Wieso möchtest du R lernen?
-
-5. Kaffee oder Tee?
-
-6. Bier oder Wein?
-
-7. Berlin oder Paris?
 
 ]
 

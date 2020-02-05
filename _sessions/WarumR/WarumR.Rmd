@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     Basel R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2019Nov/'>
+  <a href='https://therbootcamp.github.io/I2R_2020Feb/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "November 2019"
+date: "Februar 2020"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | November 2019
+      Einführung in die moderne Datenanalyse mit R | Februar 2020
       </font>
     </a>
     </span>
@@ -136,7 +136,7 @@ Financial times, July 2018
   <font style="font-size:10px">from <a href="https://www.pnas.org/content/112/4/1036">Youyou, Kosinski, & Stillwell (2019)</a></font>
 </p>
 
----
+<!---
 
 #  Daten haben klare Vorteile
 
@@ -167,6 +167,7 @@ Financial times, July 2018
 </tr>
 </table>
 
+--->
 
 ---
 
@@ -331,7 +332,8 @@ Financial times, July 2018
 
 ]
 
----
+
+<!---
 
 # Charakterzüge <font style="font-size:16px">siehe auch diese <a href="image/rversuspython.jpeg">Infographik</a>
 
@@ -400,27 +402,34 @@ Financial times, July 2018
   </tr>
 </table>
 
+--->
+
 ---
 
-# R wird relevant bleiben
+# R bleibt relevant
 
-<br>
 
 .pull-left45[
 ### Pro
-1. **Open-source** und umsonst.
-2. **Community** (e.g., [stackoverflow](https://stackoverflow.com/))
-3. **Erweiterbarkeit** ([CRAN](https://cran.r-project.org/))
-4. [**Tidyverse**](https://www.tidyverse.org/)
-5. [**RStudio**](https://www.rstudio.com/)
-6. **Productivität**: [Latex](https://www.latex-project.org/), [Markdown](https://daringfireball.net/projects/markdown/), [GitHub](https://github.com/)
+<ul>
+  <li class="m1"><span><high>Open-source</high> = umsonst</span></li>
+  <li class="m2"><span><high>Community</high> (e.g., <a href="https://stackoverflow.com/">stackoverflow</a>)</span></li>
+  <li class="m3"><span><high>Erweiterbarkeit</high> (<a href="https://cran.r-project.org/">CRAN</a>)</span></li>
+  <li class="m4"><span><a href="https://www.tidyverse.org/"><high>Tidyverse</high></a></span></li>
+  <li class="m5"><span><a href="https://www.rstudio.com/"><high>RStudio</high></a></span></li>
+  <li class="m6"><span><high>Productivitätsoptionen</high>: <a href="(https://www.latex-project.org/">Latex</a>), <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, <a href="https://github.com/">GitHub</a></span></li>
+</ul>
 ]
 
+
+
 .pull-right45[
-### Ehemals Contra
-1. **Unschön**e Sprache wird überarbeitet ([Tidyverse](https://www.tidyverse.org/))
-2. **Langsam**e Elemente werden ersetzt ([Rcpp](http://www.rcpp.org/))
-3. **Brücken** zu externen Tools/Sprachen ([rPython](http://rpython.r-forge.r-project.org/), [tensorflow](https://tensorflow.rstudio.com/))
+### (Ehemals) Contra
+<ul>
+  <li class="m1"><span><high>Unschön</high>e Sprache wird überarbeitet <a href="https://www.tidyverse.org/">Tidyverse</a></span></li>
+  <li class="m2"><span><high><high>Langsam</high>e Elemente werden ersetzt (<a href="http://www.rcpp.org/">Rcpp</a>)</span></li>
+  <li class="m3"><span><high>Brücken</high> zu externen Tools/Sprachen (e.g., <a href="http://rpython.r-forge.r-project.org/">rPython</a>, <a href="https://tensorflow.rstudio.com/">tensorflow</a></span></li>
+</ul>
 
 ]
 
