@@ -5,7 +5,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
     Basel R Bootcamp
   </a>
   <br>
-  <a href='https://therbootcamp.github.io/I2R_2019Nov/'>
+  <a href='https://therbootcamp.github.io/I2R_2020Feb/'>
     <i class='fas fa-clock' style='font-size:.9em;'></i>
   </a>&#8239; 
   <a href='https://therbootcamp.github.io'>
@@ -17,7 +17,7 @@ author: "Einführung in die moderne Datenanalyse mit R<br>
   <a href='https://www.linkedin.com/company/basel-r-bootcamp/'>
     <i class='fab fa-linkedin' style='font-size: .9em;'></i>
   </a>"
-date: "November 2019"
+date: "Februar 2020"
 output:
   xaringan::moon_reader:
     css: ["default", "baselrbootcamp.css"]
@@ -45,7 +45,7 @@ layout: true
     </a>
     <a href="https://therbootcamp.github.io/">
       <font color="#7E7E7E">
-      Einführung in die moderne Datenanalyse mit R | November 2019
+      Einführung in die moderne Datenanalyse mit R | Februar 2020
       </font>
     </a>
     </span>
@@ -71,14 +71,19 @@ require(tidyverse)
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. <high>Data I/O</high><br>
-&nbsp;&nbsp;&nbsp;-Daten von Festplatte lesen<br>
-&nbsp;&nbsp;&nbsp;-Daten leben in <mono>data.frames</mono><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span><high>Data I/O</high></a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span>3 + 1 Datentypen</span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -96,14 +101,19 @@ require(tidyverse)
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten von Festplatte lesen</high><br>
-&nbsp;&nbsp;&nbsp;-Daten leben in <mono>data.frames</mono><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span><high>Daten von Festplatte lesen</high></span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span>3 + 1 Datentypen</span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -125,14 +135,19 @@ read.csv('1_Data/Tourismus.csv')
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten von Festplatte lesen</high><br>
-&nbsp;&nbsp;&nbsp;-Daten leben in <mono>data.frames</mono><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span><high>Daten von Festplatte lesen</high></span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span>3 + 1 Datentypen</span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -159,14 +174,19 @@ daten
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten von Festplatte lesen</high><br>
-&nbsp;&nbsp;&nbsp;-Daten leben in <mono>data.frames</mono><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span><high>Daten von Festplatte lesen</high></span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span>3 + 1 Datentypen</span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -183,14 +203,19 @@ daten
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten von Festplatte lesen</high><br>
-&nbsp;&nbsp;&nbsp;-Daten leben in <mono>data.frames</mono><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span><high>Daten von Festplatte lesen</high></span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span>3 + 1 Datentypen</span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -208,14 +233,19 @@ daten
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten von Festplatte lesen</high><br>
-&nbsp;&nbsp;&nbsp;-Daten leben in <mono>data.frames</mono><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span><high>Daten von Festplatte lesen</high></span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span>3 + 1 Datentypen</span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -228,18 +258,53 @@ daten
 
 ---
 
-# Daten von Festplatte lesen
+# Daten leben in <mono>data.frames</mono>
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-Daten von Festplatte lesen<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten leben in <mono>data.frames</mono></high><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span><high>Daten leben in <mono>data.frames</span></high></li>
+    <li><span>3 + 1 Datentypen</span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
+
+]
+
+.pull-right5[
+<p align = "center">
+<img src="image/main_objects.png"><br>
+</p>
+
+]
+
+
+---
+
+# Daten leben in <mono>data.frames</mono>
+
+.pull-left4[
+
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span><high>Daten leben in <mono>data.frames</span></high></li>
+    <li><span>3 + 1 Datentypen</span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -268,18 +333,54 @@ names(daten)
 
 ---
 
-# Daten von Festplatte lesen
+# 3 + 1 Datentypen
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-Daten von Festplatte lesen<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten leben in <mono>data.frames</mono></high><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span><high>3 + 1 Datentypen</high></span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
+
+]
+
+.pull-right5[
+
+<p align = "center">
+<img src="image/vector_types.png"><br>
+</p>
+
+]
+
+
+---
+
+# 3 + 1 Datentypen
+
+.pull-left4[
+
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span><high>3 + 1 Datentypen</high></span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -301,18 +402,23 @@ daten$Land
 
 ---
 
-# Daten von Festplatte lesen
+# 3 + 1 Datentypen
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-Daten von Festplatte lesen<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten leben in <mono>data.frames</mono></high><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span><high>3 + 1 Datentypen</high></span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -334,18 +440,23 @@ class(daten$Land)
 
 ---
 
-# Daten von Festplatte lesen
+# 3 + 1 Datentypen
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-Daten von Festplatte lesen<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten leben in <mono>data.frames</mono></high><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span><high>3 + 1 Datentypen</high></span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -372,18 +483,23 @@ daten$Land
 
 ---
 
-# Daten von Festplatte lesen
+# 3 + 1 Datentypen
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-Daten von Festplatte lesen<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten leben in <mono>data.frames</mono></high><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span><high>3 + 1 Datentypen</high></span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -405,18 +521,23 @@ daten$Dauer
 
 ---
 
-# Daten von Festplatte lesen
+# 3 + 1 Datentypen
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-Daten von Festplatte lesen<br>
-&nbsp;&nbsp;&nbsp;-<high>Daten leben in <mono>data.frames</mono></high><br>
-&nbsp;&nbsp;&nbsp;-Daten auf die Festplatte schreiben<br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span><high>3 + 1 Datentypen</high></span></li>
+    <li><span>Daten auf die Festplatte schreiben</span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -439,18 +560,23 @@ class(daten$Dauer)
 
 ---
 
-# Daten von Festplatte lesen
+# Daten auf die Festplatte schreiben
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-4. Data I/O<br>
-&nbsp;&nbsp;&nbsp;-Daten von Festplatte lesen<br>
-&nbsp;&nbsp;&nbsp;-Daten leben in <mono>data.frames</mono><br>
-&nbsp;&nbsp;&nbsp;-<high>Daten auf die Festplatte schreiben</high><br><br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3g"><span>Funktionen</span></li>
+  <li class="m4"><span>Data I/O</a></span></li>
+  <ul class="level">
+    <li><span>Daten von Festplatte lesen</span></li>
+    <li><span>Daten leben in <mono>data.frames</span></li>
+    <li><span>3 + 1 Datentypen</span></li>
+    <li><span><high>Daten auf die Festplatte schreiben</high></span></li>
+  </ul><br>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 

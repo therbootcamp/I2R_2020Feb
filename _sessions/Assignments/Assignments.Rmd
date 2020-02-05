@@ -365,8 +365,7 @@ eins_zwei_drei
     <li><span>Objekt <mono><-</mono> Funktion</span></li>
     <li><span><mono><-</mono> kreiert Objekte</span></li>
     <li><span><high><mono><-</mono> verändert Objekte</high></span></li>
-  </ul>
-  </span><br>
+  </ul><br>
   <li class="m3g"><span>Funktionen</span></li>
   <li class="m4g"><span>Data I/O</a></span></li>
   <li class="m5g"><span>Analyse</span></li>

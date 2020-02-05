@@ -76,18 +76,20 @@ require(tidyverse)
 
 .pull-left4[
 
-1. R(Studio)<br>
-2. Assignments<br>
-3. <high>Funktionen</high><br>
-<font style="font-size:16px">
-&nbsp;&nbsp;&nbsp;-Alles geschieht durch eine Funktion<br>
-&nbsp;&nbsp;&nbsp;-Funktionen haben (Default) Argumente<br>
-&nbsp;&nbsp;&nbsp;-Die Klasse der Argumente ist wichtig<br>
-&nbsp;&nbsp;&nbsp;-Funktionen "leben" in Paketen<br>
-&nbsp;&nbsp;&nbsp;-Erhalte Hilfe mit <mono>?</mono><br><br>
-</font>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3"><span><high>Funktionen</high></span></li>
+  <ul class="level">
+    <li><span>Alles geschieht durch eine Funktion</span></li>
+    <li><span>Funktionen haben (Default) Argumente</span></li>
+    <li><span>Die Klasse der Argumente ist wichtig</span></li>
+    <li><span>Funktionen "leben" in Paketen</span></li>
+    <li><span>Erhalte Hilfe mit <mono>?</span></li>
+  </ul><br>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 
 ]
 
@@ -104,18 +106,20 @@ require(tidyverse)
 # Funktionen 
 
 .pull-left4[
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-<font style="font-size:16px">
-&nbsp;&nbsp;&nbsp;-<high>Alles geschieht durch eine Funktion</high><br>
-&nbsp;&nbsp;&nbsp;-Funktionen haben (Default) Argumente<br>
-&nbsp;&nbsp;&nbsp;-Die Klasse der Argumente ist wichtig<br>
-&nbsp;&nbsp;&nbsp;-Funktionen "leben" in Paketen<br>
-&nbsp;&nbsp;&nbsp;-Erhalte Hilfe mit <mono>?</mono><br><br>
-</font>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3"><span>Funktionen</span></li>
+  <ul class="level">
+    <li><span><high>Alles geschieht durch eine Funktion</high></span></li>
+    <li><span>Funktionen haben (Default) Argumente</span></li>
+    <li><span>Die Klasse der Argumente ist wichtig</span></li>
+    <li><span>Funktionen "leben" in Paketen</span></li>
+    <li><span>Erhalte Hilfe mit <mono>?</span></li>
+  </ul><br>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 ]
 
 .pull-right5[
@@ -127,18 +131,20 @@ require(tidyverse)
 # Funktionen 
 
 .pull-left4[
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-<font style="font-size:16px">
-&nbsp;&nbsp;&nbsp;-<high>Alles geschieht durch eine Funktion</high><br>
-&nbsp;&nbsp;&nbsp;-Funktionen haben (Default) Argumente<br>
-&nbsp;&nbsp;&nbsp;-Die Klasse der Argumente ist wichtig<br>
-&nbsp;&nbsp;&nbsp;-Funktionen "leben" in Paketen<br>
-&nbsp;&nbsp;&nbsp;-Erhalte Hilfe mit <mono>?</mono><br><br>
-</font>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3"><span>Funktionen</span></li>
+  <ul class="level">
+    <li><span><high>Alles geschieht durch eine Funktion</high></span></li>
+    <li><span>Funktionen haben (Default) Argumente</span></li>
+    <li><span>Die Klasse der Argumente ist wichtig</span></li>
+    <li><span>Funktionen "leben" in Paketen</span></li>
+    <li><span>Erhalte Hilfe mit <mono>?</span></li>
+  </ul><br>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 ]
 
 .pull-right5[
@@ -161,21 +167,23 @@ mean(x = eins_zwei_drei)
 
 ---
 
-# Funktionen 
+# Argumente 
 
 .pull-left4[
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-<font style="font-size:16px">
-&nbsp;&nbsp;&nbsp;-Alles geschieht durch eine Funktion<br>
-&nbsp;&nbsp;&nbsp;-<high>Funktionen haben (Default) Argumente</high><br>
-&nbsp;&nbsp;&nbsp;-Die Klasse der Argumente ist wichtig<br>
-&nbsp;&nbsp;&nbsp;-Funktionen "leben" in Paketen<br>
-&nbsp;&nbsp;&nbsp;-Erhalte Hilfe mit <mono>?</mono><br><br>
-</font>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3"><span>Funktionen</span></li>
+  <ul class="level">
+    <li><span>Alles geschieht durch eine Funktion</span></li>
+    <li><span><high>Funktionen haben (Default) Argumente</high></span></li>
+    <li><span>Die Klasse der Argumente ist wichtig</span></li>
+    <li><span>Funktionen "leben" in Paketen</span></li>
+    <li><span>Erhalte Hilfe mit <mono>?</span></li>
+  </ul><br>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 ]
 
 .pull-right5[
@@ -197,21 +205,23 @@ mean(c(1, 2, 3, NA), na.rm = TRUE)
 
 ---
 
-# Funktionen 
+# Klassen 
 
 .pull-left4[
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-<font style="font-size:16px">
-&nbsp;&nbsp;&nbsp;-Alles geschieht durch eine Funktion<br>
-&nbsp;&nbsp;&nbsp;-Funktionen haben (Default) Argumente<br>
-&nbsp;&nbsp;&nbsp;-<high>Die Klasse der Argumente ist wichtig</high><br>
-&nbsp;&nbsp;&nbsp;-Funktionen "leben" in Paketen<br>
-&nbsp;&nbsp;&nbsp;-Erhalte Hilfe mit <mono>?</mono><br><br>
-</font>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3"><span>Funktionen</span></li>
+  <ul class="level">
+    <li><span>Alles geschieht durch eine Funktion</span></li>
+    <li><span>Funktionen haben (Default) Argumente</span></li>
+    <li><span><high>Die Klasse der Argumente ist wichtig</high></span></li>
+    <li><span>Funktionen "leben" in Paketen</span></li>
+    <li><span>Erhalte Hilfe mit <mono>?</span></li>
+  </ul><br>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 ]
 
 .pull-right5[
@@ -228,21 +238,23 @@ mean(c("1", "2", "3"))
 
 ---
 
-# Funktionen 
+# Pakete 
 
 .pull-left4[
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-<font style="font-size:16px">
-&nbsp;&nbsp;&nbsp;-Alles geschieht durch eine Funktion<br>
-&nbsp;&nbsp;&nbsp;-Funktionen haben (Default) Argumente<br>
-&nbsp;&nbsp;&nbsp;-Die Klasse der Argumente ist wichtig<br>
-&nbsp;&nbsp;&nbsp;-<high>Funktionen "leben" in Paketen</high><br>
-&nbsp;&nbsp;&nbsp;-Erhalte Hilfe mit <mono>?</mono><br><br>
-</font>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3"><span>Funktionen</span></li>
+  <ul class="level">
+    <li><span>Alles geschieht durch eine Funktion</span></li>
+    <li><span>Funktionen haben (Default) Argumente</span></li>
+    <li><span>Die Klasse der Argumente ist wichtig</span></li>
+    <li><span><high>Funktionen "leben" in Paketen</high></span></li>
+    <li><span>Erhalte Hilfe mit <mono>?</span></li>
+  </ul><br>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 ]
 
 .pull-right5[
@@ -254,18 +266,20 @@ mean(c("1", "2", "3"))
 # Funktionen 
 
 .pull-left4[
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-<font style="font-size:16px">
-&nbsp;&nbsp;&nbsp;-Alles geschieht durch eine Funktion<br>
-&nbsp;&nbsp;&nbsp;-Funktionen haben (Default) Argumente<br>
-&nbsp;&nbsp;&nbsp;-Die Klasse der Argumente ist wichtig<br>
-&nbsp;&nbsp;&nbsp;-<high>Funktionen "leben" in Paketen</high><br>
-&nbsp;&nbsp;&nbsp;-Erhalte Hilfe mit <mono>?</mono><br><br>
-</font>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3"><span>Funktionen</span></li>
+  <ul class="level">
+    <li><span>Alles geschieht durch eine Funktion</span></li>
+    <li><span>Funktionen haben (Default) Argumente</span></li>
+    <li><span>Die Klasse der Argumente ist wichtig</span></li>
+    <li><span><high>Funktionen "leben" in Paketen</high></span></li>
+    <li><span>Erhalte Hilfe mit <mono>?</span></li>
+  </ul><br>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 ]
 
 .pull-right5[
@@ -289,18 +303,20 @@ library(tidyverse)
 # Funktionen 
 
 .pull-left4[
-1. R(Studio)<br>
-2. Assignments<br>
-3. Funktionen<br>
-<font style="font-size:16px">
-&nbsp;&nbsp;&nbsp;-Alles geschieht durch eine Funktion<br>
-&nbsp;&nbsp;&nbsp;-Funktionen haben (Default) Argumente<br>
-&nbsp;&nbsp;&nbsp;-Die Klasse der Argumente ist wichtig<br>
-&nbsp;&nbsp;&nbsp;-Funktionen "leben" in Paketen<br>
-&nbsp;&nbsp;&nbsp;-<high>Erhalte Hilfe mit <mono>?</mono></high><br><br>
-</font>
-4. Data I/O<br>
-5. Analyse
+<ul>
+  <li class="m1g"><span>R(Studio)</span></li>
+  <li class="m2g"><span>Assignments<br></span></li>
+  <li class="m3"><span>Funktionen</span></li>
+  <ul class="level">
+    <li><span>Alles geschieht durch eine Funktion</span></li>
+    <li><span>Funktionen haben (Default) Argumente</span></li>
+    <li><span>Die Klasse der Argumente ist wichtig</span></li>
+    <li><span>Funktionen "leben" in Paketen</span></li>
+    <li><span><high>Erhalte Hilfe mit <mono>?</high></span></li>
+  </ul><br>
+  <li class="m4g"><span>Data I/O</a></span></li>
+  <li class="m5g"><span>Analyse</span></li>
+</ul>
 ]
 
 .pull-right5[

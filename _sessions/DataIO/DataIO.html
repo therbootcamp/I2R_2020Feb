@@ -12,8 +12,8 @@
 class: center, middle, inverse, title-slide
 
 # Data IO
-### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> Basel R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2019Nov/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
-### November 2019
+### Einführung in die moderne Datenanalyse mit R<br> <a href='https://therbootcamp.github.io'> Basel R Bootcamp </a> <br> <a href='https://therbootcamp.github.io/I2R_2020Feb/'> <i class='fas fa-clock' style='font-size:.9em;'></i> </a>  <a href='https://therbootcamp.github.io'> <i class='fas fa-home' style='font-size:.9em;' ></i> </a>  <a href='mailto:therbootcamp@gmail.com'> <i class='fas fa-envelope' style='font-size: .9em;'></i> </a>  <a href='https://www.linkedin.com/company/basel-r-bootcamp/'> <i class='fab fa-linkedin' style='font-size: .9em;'></i> </a>
+### Februar 2020
 
 ---
 
@@ -34,7 +34,7 @@ layout: true
     &lt;/a&gt;
     &lt;a href="https://therbootcamp.github.io/"&gt;
       &lt;font color="#7E7E7E"&gt;
-      Einführung in die moderne Datenanalyse mit R | November 2019
+      Einführung in die moderne Datenanalyse mit R | Februar 2020
       &lt;/font&gt;
     &lt;/a&gt;
     &lt;/span&gt;
@@ -49,14 +49,19 @@ layout: true
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. &lt;high&gt;Data I/O&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten von Festplatte lesen&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;&lt;high&gt;Data I/O&lt;/high&gt;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3 + 1 Datentypen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -74,14 +79,19 @@ layout: true
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten von Festplatte lesen&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;Daten von Festplatte lesen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3 + 1 Datentypen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -117,14 +127,19 @@ read.csv('1_Data/Tourismus.csv')
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten von Festplatte lesen&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;Daten von Festplatte lesen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3 + 1 Datentypen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -164,14 +179,19 @@ daten
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten von Festplatte lesen&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;Daten von Festplatte lesen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3 + 1 Datentypen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -188,14 +208,19 @@ daten
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten von Festplatte lesen&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;Daten von Festplatte lesen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3 + 1 Datentypen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -213,14 +238,19 @@ daten
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten von Festplatte lesen&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;Daten von Festplatte lesen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3 + 1 Datentypen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -233,18 +263,53 @@ daten
 
 ---
 
-# Daten von Festplatte lesen
+# Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten von Festplatte lesen&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/high&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3 + 1 Datentypen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+&lt;p align = "center"&gt;
+&lt;img src="image/main_objects.png"&gt;&lt;br&gt;
+&lt;/p&gt;
+
+]
+
+
+---
+
+# Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/high&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3 + 1 Datentypen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -288,18 +353,54 @@ names(daten)
 
 ---
 
-# Daten von Festplatte lesen
+# 3 + 1 Datentypen
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten von Festplatte lesen&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+]
+
+.pull-right5[
+
+&lt;p align = "center"&gt;
+&lt;img src="image/vector_types.png"&gt;&lt;br&gt;
+&lt;/p&gt;
+
+]
+
+
+---
+
+# 3 + 1 Datentypen
+
+.pull-left4[
+
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -334,18 +435,23 @@ daten$Land
 
 ---
 
-# Daten von Festplatte lesen
+# 3 + 1 Datentypen
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten von Festplatte lesen&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -369,18 +475,23 @@ class(daten$Land)
 
 ---
 
-# Daten von Festplatte lesen
+# 3 + 1 Datentypen
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten von Festplatte lesen&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -419,18 +530,23 @@ daten$Land
 
 ---
 
-# Daten von Festplatte lesen
+# 3 + 1 Datentypen
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten von Festplatte lesen&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -465,18 +581,23 @@ daten$Dauer
 
 ---
 
-# Daten von Festplatte lesen
+# 3 + 1 Datentypen
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten von Festplatte lesen&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;/high&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten auf die Festplatte schreiben&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;3 + 1 Datentypen&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten auf die Festplatte schreiben&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
@@ -501,18 +622,23 @@ class(daten$Dauer)
 
 ---
 
-# Daten von Festplatte lesen
+# Daten auf die Festplatte schreiben
 
 .pull-left4[
 
-1. R(Studio)&lt;br&gt;
-2. Assignments&lt;br&gt;
-3. Funktionen&lt;br&gt;
-4. Data I/O&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten von Festplatte lesen&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-Daten leben in &lt;mono&gt;data.frames&lt;/mono&gt;&lt;br&gt;
-&amp;nbsp;&amp;nbsp;&amp;nbsp;-&lt;high&gt;Daten auf die Festplatte schreiben&lt;/high&gt;&lt;br&gt;&lt;br&gt;
-5. Analyse
+&lt;ul&gt;
+  &lt;li class="m1g"&gt;&lt;span&gt;R(Studio)&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m2g"&gt;&lt;span&gt;Assignments&lt;br&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m3g"&gt;&lt;span&gt;Funktionen&lt;/span&gt;&lt;/li&gt;
+  &lt;li class="m4"&gt;&lt;span&gt;Data I/O&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;ul class="level"&gt;
+    &lt;li&gt;&lt;span&gt;Daten von Festplatte lesen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;Daten leben in &lt;mono&gt;data.frames&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;3 + 1 Datentypen&lt;/span&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;span&gt;&lt;high&gt;Daten auf die Festplatte schreiben&lt;/high&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;/ul&gt;&lt;br&gt;
+  &lt;li class="m5g"&gt;&lt;span&gt;Analyse&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 ]
 
