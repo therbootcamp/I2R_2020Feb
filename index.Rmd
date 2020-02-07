@@ -34,9 +34,9 @@ output:
 
 ### Downloads
 
-##### [**Code**](https://raw.githubusercontent.com/therbootcamp/I2R_2019Nov/master/_download/code/I2R_code.zip)
+##### [**Code**](https://raw.githubusercontent.com/therbootcamp/I2R_2020Feb/master/_download/code/I2R_code.zip)
 
-##### [**Data**](https://raw.githubusercontent.com/therbootcamp/I2R_2019Nov/master/_download/data/I2R_data.zip)
+##### [**Data**](https://raw.githubusercontent.com/therbootcamp/I2R_2020Feb/master/_download/data/I2R_data.zip)
 
 <br>
 
