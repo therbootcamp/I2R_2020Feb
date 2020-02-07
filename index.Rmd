@@ -28,6 +28,10 @@ output:
 
 <br>
 
+### Wifi
+
+##### [**Instructions**](https://raw.githubusercontent.com/therbootcamp/therbootcamp.github.io/master/_sessions/_image/wifi_instruct.png)
+
 ### Downloads
 
 ##### [**Code**](https://raw.githubusercontent.com/therbootcamp/I2R_2019Nov/master/_download/code/I2R_code.zip)
