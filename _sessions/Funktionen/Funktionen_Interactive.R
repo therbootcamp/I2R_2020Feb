@@ -43,14 +43,3 @@ my_vec[4] <- "a"
 
 # Berechne nochmals die Summe von my_vec. Was passiert und weshalb?
 
-# Der folgende Code erstellt eine Matrix "my_mat" mit den Werten 1 bis 10 in zwei
-# Spalten.
-my_mat <- matrix(1:10, ncol = 2)
-
-# Überprüfe welche Klasse my_mat hat.
-
-# Berechne die Summe der Matrix.
-
-# Die sum() Funktion hat die Summe über alle Zellen der Matrix berechnet. Was wenn
-# wir nur die Summe pro Zeile wollen?
-
