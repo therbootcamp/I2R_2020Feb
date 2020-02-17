@@ -849,7 +849,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Statistik mit R<br></font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/2.png" height="230px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>March 20/21, 2019</high><br><br><br>
+      <high>March 20/21, 2020</high><br><br><br>
       </a>
     </p>
   </td>
@@ -859,7 +859,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Maschinelles Lernen mit R</font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/3.png" height="230px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>April 3/4, 2019</high><br><br><br>
+      <high>April 3/4, 2020</high><br><br><br>
       </a>
     </p>
   </td>
@@ -869,7 +869,7 @@ Das Netz ist vll. der beste Ort für Informationen über R.
       <font style="font-size:20px;weight:700"><br>Reporting mit R<br></font><br>
       <br>
       <img src="https://therbootcamp.github.io/img/courses/4.png" height="230px" style="border-radius:50%;border:10px solid #E9ECEF"></img><br><br>
-      <high>Juni 5/6, 2019</high><br><br><br>
+      <high>Juni 5/6, 2020</high><br><br><br>
       </a>
     </p>
   </td>

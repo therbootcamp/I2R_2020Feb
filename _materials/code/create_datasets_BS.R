@@ -35,6 +35,7 @@ tourism %>% pivot_wider(names_from = Jahr,
                         values_from = c(Besucher, Dauer))
 
 write_csv(tourism %>% filter(Jahr == 2018),'1_Data/Tourismus.csv')
+write_csv(tourism %>% filter(Jahr == 2018),'1_Data/Tourismus.csv')
 
 
 a = read_excel('~/Downloads/je-d-21.03.03.xlsx')
